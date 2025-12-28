@@ -4,7 +4,7 @@ import joblib
 
 # Page configuration
 st.set_page_config(
-    page_title="Diabetes Prediction App",
+    page_title="Diabetes Risk Predictor",
     page_icon="🩺",
     layout="wide"
 )
@@ -52,7 +52,7 @@ st.markdown("""
 
 
 # ---------- Main Title ----------
-st.markdown('<div class="main-title">🩺 Diabetes Prediction App</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title">🩺 Diabetes Risk Predictor App</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Enter the details below to check diabetes risk</div>', unsafe_allow_html=True)
 st.markdown("---")
 
